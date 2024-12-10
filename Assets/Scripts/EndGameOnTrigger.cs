@@ -14,9 +14,8 @@ public class EndGameOnTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             
-
             gameOverPanel.SetActive(true);
-            gameOverPanel2.SetActive(true);
+            
             Time.timeScale = 0f;
            
         }
